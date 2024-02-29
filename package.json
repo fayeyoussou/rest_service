@@ -1,0 +1,20 @@
+{
+  "name": "rest_service",
+  "version": "1.0.0",
+  "description": "rest api",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "~4.18.2",
+    "mongoose": "^8.1.1"
+  },
+  "author": "youdev",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "typescript": "^5.3.3"
+  }
+}
